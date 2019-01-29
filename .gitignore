@@ -1,17 +1,33 @@
-*.suo
+====================
+Temp/
+Library/
+UnityVS/
+UnityVS.meta
+Assets/AssetStoreTools/
+Assets/AssetStoreTools.meta
+
+====================
+ExportedObj/
+obj/
+.vs/
+*.svd
+*.userprefs
+*.csproj
 *.pidb
+*.suo
+*.sln
+*.user
 *.unityproj
-/UpgradeLog.htm
-/UnityProject/Assets/Zenject/AddOns.meta
-/UnityProject/Assets/Zenject/AddOns
+*.booproj
 
-# steve: ignore VIM config files that I use
-.vim_l
-.ackrc
-.vimrc_l
-project_root_marker
+====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-*.pyc
-
-*.csproj.user
-/SampleBuilds
+====================
+Builds/
